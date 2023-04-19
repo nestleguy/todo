@@ -1,12 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../UI/button/button.css'; 
 
-function Home() {
+const Home = () => {
   return (
     <div>
-      <h2>Home Page</h2>
-      {/* Add your content here */}
+      <h1>Welcome to the Home page!</h1>
+      <Link to="/login" className="button" >Go to Login</Link>
     </div>
   );
-}
+};
 
 export default Home;
