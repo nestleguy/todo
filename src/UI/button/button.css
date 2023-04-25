@@ -1,12 +1,15 @@
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
+    position: center;
+    justify-content: center;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 100px;
     cursor: pointer;
+    border-radius: 5px;
   }
